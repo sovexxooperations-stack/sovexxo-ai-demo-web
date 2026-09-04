@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/demo-config",
+      "destination": "https://purple-chimpanzee-997024.hostingersite.com/webhook/ai-demo-config"
+    },
+    {
+      "source": "/api/demo-runtime",
+      "destination": "https://purple-chimpanzee-997024.hostingersite.com/webhook/ai-demo-runtime"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
